@@ -1,7 +1,42 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Viktorre 
+Viktorre
+/
+NN_classifier
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+NN_classifier/.gitignore
+@Viktorre
+Viktorre added .gitignore
+Latest commit f257a69 29 days ago
+ History
+ 1 contributor
+136 lines (110 sloc)  1.81 KB
+   
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# log files ml
+logs/
+
+# VS Code
+.vscode/
 
 # C extensions
 *.so
@@ -109,6 +144,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+venvnnc/
+venvhparams/
 
 # Spyder project settings
 .spyderproject
@@ -127,3 +164,16 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
